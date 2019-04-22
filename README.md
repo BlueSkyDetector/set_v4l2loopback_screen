@@ -7,8 +7,9 @@ For example, though Slack doesn't support sharing single screen in multiple scre
 ## Requirement
 
 - Linux
+- kernel module `v4l2loopback` ("v4l2loopback-dkms" package on Debian)
 - Python >= 2.7
-- Python library `python-xlib` or `python3-xlib`
+- Python library `python-xlib` or `python3-xlib` (same name packages on Debian)
 - ffmpeg with `v4l2` output and `x11grab` input
 - `/dev/video*` rw permission
 - `modprobe` permission for `--reload_v4l2loopback` option
