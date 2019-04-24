@@ -1,6 +1,6 @@
 # Tool for capturing your Linux screen and turning it into v4l2 device
 
-Usuful tool for sharing single screen by turning the screen into v4l2 device.
+Useful tool for sharing single screen by turning the screen into v4l2 device.
 For example, though Slack doesn't support sharing single screen in multiple screen environment on Linux, by this tool, Slack becomes able to share the screen as a pseudo webcam input.
 
 
